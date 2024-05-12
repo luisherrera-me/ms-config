@@ -1,9 +1,7 @@
-spring:
-  datasource:
-    username: prod
-    hikari:
-      maximum-pool-size: 5
-      connection-timeout: 20000
-    url: jdbc:postgresql://localhost:5432/kuby
-    password: MR.robot99
+db:
+  username: prod
+  maximum-pool-size: 5
+  connection-timeout: 20000
+  url: jdbc:postgresql://localhost:5432/kuby-prod
+  password: pasword
     
