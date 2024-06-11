@@ -1,4 +1,4 @@
 report:
   template: "{DataSensors} was founded in {creation_date} by {creation} the websites from this company are {sensor}"
 fallback:
-  uri: "http://localhost:8787/api-sersor-fallback/dataSensor/{id}"
+  uri: "http://localhost:8787//sensor-data-fallback/v1/sensor_history/{id}"
